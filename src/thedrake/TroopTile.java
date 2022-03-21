@@ -12,10 +12,10 @@ public class TroopTile implements Tile {
         this.face = face;
     }
 
-    // Vrací True, pokud je tato dlaždice volná a lze na ni vstoupit
+    // Vrací True, pokud je tato dlaždice volná a lze na ni vstoupit // TODO proc tady false???
     @Override
     public boolean canStepOn() {
-        return true;
+        return false;
     }
 
     // Vrací True, pokud tato dlaždice obsahuje jednotku
